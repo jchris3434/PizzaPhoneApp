@@ -1,0 +1,22 @@
+ion-segment{
+  padding: 7px; 
+  background-color: whitesmoke;
+}
+
+#basetomate{
+  color: rgb(46, 44, 44);
+}
+
+ion-segment-button {
+    --indicator-color : transparent!important; 
+    font-size: 18px;
+    padding: 8px;     
+  }
+
+.tomato {
+    --background-checked: #e42727;
+  }
+
+  .bianca{
+    --background-checked: bisque;
+  }

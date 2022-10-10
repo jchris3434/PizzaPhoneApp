@@ -1,0 +1,14 @@
+#Validation{
+    margin-left: 4%;
+    margin-right:4%;
+    --background:#e42727;
+    font-size: large;
+
+    --background-hover: orange;
+    --background-activated:orange;
+    --background-focused: orange;
+
+    --border-color: rgb(245, 210, 9);
+    --border-style: solid;
+    --border-width: 4px;
+}

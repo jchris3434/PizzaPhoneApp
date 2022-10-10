@@ -1,0 +1,41 @@
+:root {
+    --ion-color-rose: #ffcb52;
+    --ion-color-rose-rgb: 254,254,224;
+    --ion-color-rose-contrast: #000000;
+    --ion-color-rose-contrast-rgb: 0,0,0;
+    --ion-color-rose-shade: #f04343;    
+    --ion-color-rose-tint: #43edf0;
+  }
+  
+  .ion-color-rose {
+    --ion-color-base: var(--ion-color-rose);
+    --ion-color-base-rgb: var(--ion-color-rose-rgb);
+    --ion-color-contrast: var(--ion-color-rose-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-rose-contrast-rgb);
+    --ion-color-shade: var(--ion-color-rose-shade);
+    --ion-color-tint: var(--ion-color-rose-tint);
+  }
+  
+  div[slot="content"] {
+    background: rgba(var(--ion-color-rose-rgb), 0.25)
+  }
+
+  ion-checkbox {
+    --size: 26px;
+    --background-checked: #15ec4e;
+  }
+  
+  ion-checkbox::part(container) {
+    width: 35px;
+    border-radius: 6px;
+    border: 2px solid #15ec4e;
+  }
+
+  ion-item{
+    --background: 255,128,0;
+  }
+
+  ion-label{
+    height: 30px;
+    margin-top: 5%;
+  }

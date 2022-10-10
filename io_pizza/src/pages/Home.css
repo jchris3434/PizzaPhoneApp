@@ -1,0 +1,9 @@
+ion-title{
+    --text-align: center;
+    color: red;
+    font-size: 25px;
+}
+
+ion-toolbar, ion-header {
+    --min-height: 60px;
+   }

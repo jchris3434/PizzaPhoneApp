@@ -1,0 +1,15 @@
+ion-range {
+    --bar-background: #f3f4f5;
+    --bar-background-active: #ffd500;
+    --bar-height: 8px;
+    --bar-border-radius: 8px;
+    --knob-background: #e42727;
+    --knob-size: 25px;
+    --pin-background: #e42727;
+    --pin-color: #fff;
+  }
+
+  #pizzsize{
+    color:#e6a610;
+    margin-left: 5%;
+  }
